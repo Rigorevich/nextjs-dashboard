@@ -171,9 +171,9 @@ async function main() {
   await client.end();
 }
 
-main().catch((err) => {
+main().catch((error) => {
   console.error(
     'An error occurred while attempting to seed the database:',
-    err,
+    error,
   );
 });
